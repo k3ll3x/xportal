@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
+    format="7"
+    timestamp="88547568851028"
+    token="-3349672454610035528" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="C:\Users\isain\Desktop\ISC\Quinto Semestre\Videojuegos\Prueba1Cam\android\build\outputs\apk\android-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="330425263672962" >
+        <artifact
+            location="C:\Users\isain\Desktop\ISC\Quinto Semestre\Videojuegos\Prueba1Cam\android\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\isain\Desktop\ISC\Quinto Semestre\Videojuegos\Prueba1Cam\android\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
