@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Kush\\Documents\\dev\\android\\xportal\\android\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\ADY\\Desktop\\xportal\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\ADY\\Desktop\\xportal\\android\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\isain\\Desktop\\ISC\\Quinto Semestre\\Videojuegos\\xportal\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\isain\\Desktop\\ISC\\Quinto Semestre\\Videojuegos\\xportal\\android\\res\\drawable-xhdpi\\ic_launcher.png"
     }

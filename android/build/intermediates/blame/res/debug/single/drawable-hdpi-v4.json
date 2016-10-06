@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\ADY\\Desktop\\xportal\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\ADY\\Desktop\\xportal\\android\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\isain\\Desktop\\ISC\\Quinto Semestre\\Videojuegos\\xportal\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\isain\\Desktop\\ISC\\Quinto Semestre\\Videojuegos\\xportal\\android\\res\\drawable-hdpi\\ic_launcher.png"
     },

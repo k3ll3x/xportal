@@ -7,6 +7,7 @@ import com.badlogic.gdx.Game;
  *
  * Sistema de control de versiones
  * ejercicio isain
+ * Listo Adriana :)
  */
 public class Juego extends Game {
     public void create() {
