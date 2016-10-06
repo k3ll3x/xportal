@@ -9,6 +9,7 @@ import com.badlogic.gdx.Game;
  * ejercicio isain
  * Listo Adriana :)
  * Siegfried es un hacker
+ * Diana :D
  */
 public class Juego extends Game {
     public void create() {
