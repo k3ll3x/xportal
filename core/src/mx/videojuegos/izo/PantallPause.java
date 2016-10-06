@@ -18,6 +18,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 
 /**
  * Created by isain on 9/8/2016.
+ *
  */
 public class PantallPause implements Screen {
 
@@ -113,7 +114,7 @@ public class PantallPause implements Screen {
         vista = new FitViewport(ANCHO_MUNDO,ALTO_MUNDO,camara);
 
         create();
-     }
+    }
     private void cargarTexturas() {
         //Textura de fondo
         assetManager.load("NivelPausa.png", Texture.class);

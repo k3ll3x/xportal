@@ -45,9 +45,11 @@ public class PantallaJugar implements Screen {
     private Viewport vista;
 
 
-    public PantallaJugar(Juego juego) {this.juego = juego;}
+    public PantallaJugar(Juego juego) {
+        this.juego = juego;
+    }
 
-    public void create(){
+    public void create() {
 
         //Cargando texturas
         cargarTexturas();
@@ -74,51 +76,51 @@ public class PantallaJugar implements Screen {
         //Crear boton de Pausa
         TextureRegionDrawable trdBtnPause = new TextureRegionDrawable(new TextureRegion(texturaBtnPause));
         ImageButton btnPause = new ImageButton(trdBtnPause);
-        btnPause.setPosition(ancho / 2 - btnPause.getWidth()+620/ 2+285, 0.428f * alto+280);
+        btnPause.setPosition(ancho / 2 - btnPause.getWidth() + 620 / 2 + 285, 0.428f * alto + 280);
         escena.addActor(btnPause);
 
         //Crear boton Izquierdo
         TextureRegionDrawable trdBtnIzquierdo = new TextureRegionDrawable(new TextureRegion(texturaBtnIzquierdo));
         ImageButton btnIzquierdo = new ImageButton(trdBtnIzquierdo);
-        btnIzquierdo.setPosition(ancho / 2 - btnIzquierdo.getWidth()-200/ 2-380, 0.428f * alto-280);
+        btnIzquierdo.setPosition(ancho / 2 - btnIzquierdo.getWidth() - 200 / 2 - 380, 0.428f * alto - 280);
         escena.addActor(btnIzquierdo);
 
         //Crear boton Derecho
         TextureRegionDrawable trdBtnDerecho = new TextureRegionDrawable(new TextureRegion(texturaBtnDerecho));
         ImageButton btnDerecho = new ImageButton(trdBtnDerecho);
-        btnDerecho.setPosition(ancho / 2 - btnDerecho.getWidth()-200/ 2-200, 0.428f * alto-280);
+        btnDerecho.setPosition(ancho / 2 - btnDerecho.getWidth() - 200 / 2 - 200, 0.428f * alto - 280);
         escena.addActor(btnDerecho);
 
         //Crear boton Salto
         TextureRegionDrawable trdBtnSaltar = new TextureRegionDrawable(new TextureRegion(texturaBtnSaltar));
         ImageButton btnSaltar = new ImageButton(trdBtnSaltar);
-        btnSaltar.setPosition(ancho / 2 - btnSaltar.getWidth()+620/ 2+285, 0.428f * alto-280);
+        btnSaltar.setPosition(ancho / 2 - btnSaltar.getWidth() + 620 / 2 + 285, 0.428f * alto - 280);
         escena.addActor(btnSaltar);
 
         //Registrar listener para atender evento del boton
-        btnPause.addListener(new ClickListener(){
+        btnPause.addListener(new ClickListener() {
             @Override
-            public void clicked(InputEvent event, float x, float y){
+            public void clicked(InputEvent event, float x, float y) {
                 //Regresar al menu principal
                 Gdx.app.log("clicked", "TAP sobre el boton Pausa");
                 juego.setScreen(new PantallPause(juego));
             }
         });
-        btnIzquierdo.addListener(new ClickListener(){
+        btnIzquierdo.addListener(new ClickListener() {
             @Override
-            public void clicked(InputEvent event, float x, float y){
+            public void clicked(InputEvent event, float x, float y) {
                 Gdx.app.log("clicked", "TAP sobre el boton Izquierdo");
             }
         });
-        btnDerecho.addListener(new ClickListener(){
+        btnDerecho.addListener(new ClickListener() {
             @Override
-            public void clicked(InputEvent event, float x, float y){
+            public void clicked(InputEvent event, float x, float y) {
                 Gdx.app.log("clicked", "TAP sobre el boton Derecho");
             }
         });
-        btnSaltar.addListener(new ClickListener(){
+        btnSaltar.addListener(new ClickListener() {
             @Override
-            public void clicked(InputEvent event, float x, float y){
+            public void clicked(InputEvent event, float x, float y) {
                 Gdx.app.log("clicked", "TAP sobre el boton Saltar");
             }
         });
@@ -126,20 +128,21 @@ public class PantallaJugar implements Screen {
         Gdx.input.setInputProcessor(escena);
     }
 
-    public void render(){
+    public void render() {
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
         escena.setViewport(vista);
         escena.draw();
     }
+
     private void cargarTexturas() {
         //Textura de fondo
         assetManager.load("Nivel1Temp.png", Texture.class);
-        assetManager.load("BtmPausa.png",Texture.class);
-        assetManager.load("BtmIzquierdo.png",Texture.class);
-        assetManager.load("BtmDerecho.png",Texture.class);
-        assetManager.load("BtmSaltar.png",Texture.class);
+        assetManager.load("BtmPausa.png", Texture.class);
+        assetManager.load("BtmIzquierdo.png", Texture.class);
+        assetManager.load("BtmDerecho.png", Texture.class);
+        assetManager.load("BtmSaltar.png", Texture.class);
 
         //se bloquea hasta cargar los recursos
         assetManager.finishLoading();
@@ -157,10 +160,10 @@ public class PantallaJugar implements Screen {
     @Override
     public void show() {
         //CAMARA
-        camara = new OrthographicCamera(ANCHO_MUNDO,ALTO_MUNDO);
-        camara.position.set(ANCHO_MUNDO/2,ALTO_MUNDO/2,0);
+        camara = new OrthographicCamera(ANCHO_MUNDO, ALTO_MUNDO);
+        camara.position.set(ANCHO_MUNDO / 2, ALTO_MUNDO / 2, 0);
         camara.update();
-        vista = new FitViewport(ANCHO_MUNDO,ALTO_MUNDO,camara);
+        vista = new FitViewport(ANCHO_MUNDO, ALTO_MUNDO, camara);
 
         //llamar a create
         create();
@@ -173,7 +176,7 @@ public class PantallaJugar implements Screen {
 
     @Override
     public void resize(int width, int height) {
-        vista.update(width,height);
+        vista.update(width, height);
     }
 
     @Override

@@ -9,11 +9,10 @@ import com.badlogic.gdx.Game;
  * ejercicio isain
  * Listo Adriana :)
  * Siegfried es un hacker
- * Diana :D
+ * Materia de Videojuegos
  */
 public class Juego extends Game {
     public void create() {
         setScreen(new PrincipalPantalla(this));
     }
-
 }

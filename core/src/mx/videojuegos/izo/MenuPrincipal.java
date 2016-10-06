@@ -244,5 +244,6 @@ public class MenuPrincipal implements Screen {
 		texturaBtnScore.dispose();
 		escena.dispose();
 	}
+
 }
 

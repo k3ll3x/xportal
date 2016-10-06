@@ -20,6 +20,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
  * Created by isain on 9/7/2016.
  */
 public class PantallaSettings implements Screen {
+
     private static final int ANCHO_MUNDO = 1280;
     private static final int ALTO_MUNDO = 720;
 
@@ -146,4 +147,5 @@ public class PantallaSettings implements Screen {
         texturaFondo.dispose();
         escena.dispose();
     }
+
 }
