@@ -11,6 +11,7 @@ import com.badlogic.gdx.Game;
  * Siegfried es un hacker
  * Materia de Videojuegos
  * Te necesitamos Sig
+ * Lo logre :') Diana
  */
 public class Juego extends Game {
     public void create() {
