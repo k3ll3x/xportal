@@ -8,6 +8,7 @@ import com.badlogic.gdx.Game;
  * Sistema de control de versiones
  * ejercicio isain
  * Listo Adriana :)
+ * Siegfried es un hacker
  */
 public class Juego extends Game {
     public void create() {
