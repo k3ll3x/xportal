@@ -23,6 +23,8 @@ import mx.videojuegos.izo.Juego;
  */
 public class PantallaAcercaDe implements Screen {
 
+
+
     private static final int ANCHO_MUNDO = 1280;
     private static final int ALTO_MUNDO = 720;
 

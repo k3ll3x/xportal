@@ -151,4 +151,5 @@ public class PrincipalPantalla implements Screen {
         texturaFondo.dispose();
         escena.dispose();
     }
+
 }

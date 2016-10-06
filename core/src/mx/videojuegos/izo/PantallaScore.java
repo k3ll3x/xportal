@@ -22,6 +22,8 @@ import com.badlogic.gdx.utils.viewport.Viewport;
  */
 public class PantallaScore implements Screen {
 
+
+
     private static final int ANCHO_MUNDO = 1280;
     private static final int ALTO_MUNDO = 720;
 
