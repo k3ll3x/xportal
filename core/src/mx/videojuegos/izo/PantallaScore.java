@@ -18,6 +18,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 
 /**
  * Created by isain on 9/8/2016.
+ * El Cholo
  */
 public class PantallaScore implements Screen {
 

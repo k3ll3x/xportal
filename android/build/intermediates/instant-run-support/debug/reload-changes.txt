@@ -1,2 +1,0 @@
-CHANGED,C:\Users\isain\Desktop\ISC\Quinto Semestre\Videojuegos\Prueba1Cam\android\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,C:\Users\isain\Desktop\ISC\Quinto Semestre\Videojuegos\Prueba1Cam\android\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\mx\videojuegos\izo\MenuPrincipal$5$override.class
