@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\ADY\\Desktop\\xportal\\android\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "C:\\Users\\64594\\Desktop\\TEC 5to semestre\\Proyecto de desarrollo de videojuegos\\xportal\\android\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 95
                 },
                 "from": {
-                    "file": "C:\\Users\\ADY\\Desktop\\xportal\\android\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\64594\\Desktop\\TEC 5to semestre\\Proyecto de desarrollo de videojuegos\\xportal\\android\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -31,142 +31,7 @@
                     "endOffset": 558
                 },
                 "from": {
-                    "file": "C:\\Users\\ADY\\Desktop\\xportal\\android\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 19,
-                        "endLine": 9,
-                        "endColumn": 12,
-                        "endOffset": 484
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\isain\\Desktop\\ISC\\Quinto Semestre\\Videojuegos\\xportal\\android\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 44,
-                    "endOffset": 95
-                },
-                "from": {
-                    "file": "C:\\Users\\isain\\Desktop\\ISC\\Quinto Semestre\\Videojuegos\\xportal\\android\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 59,
-                        "endColumn": 44,
-                        "endOffset": 99
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 100,
-                    "endLine": 10,
-                    "endColumn": 12,
-                    "endOffset": 558
-                },
-                "from": {
-                    "file": "C:\\Users\\isain\\Desktop\\ISC\\Quinto Semestre\\Videojuegos\\xportal\\android\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 19,
-                        "endLine": 9,
-                        "endColumn": 12,
-                        "endOffset": 484
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\Documents\\xportal\\android\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 44,
-                    "endOffset": 95
-                },
-                "from": {
-                    "file": "D:\\Documents\\xportal\\android\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 59,
-                        "endColumn": 44,
-                        "endOffset": 99
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 100,
-                    "endLine": 10,
-                    "endColumn": 12,
-                    "endOffset": 558
-                },
-                "from": {
-                    "file": "D:\\Documents\\xportal\\android\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 19,
-                        "endLine": 9,
-                        "endColumn": 12,
-                        "endOffset": 484
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\Kush\\Documents\\dev\\android\\xportal\\android\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 44,
-                    "endOffset": 95
-                },
-                "from": {
-                    "file": "C:\\Users\\Kush\\Documents\\dev\\android\\xportal\\android\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 59,
-                        "endColumn": 44,
-                        "endOffset": 99
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 100,
-                    "endLine": 10,
-                    "endColumn": 12,
-                    "endOffset": 558
-                },
-                "from": {
-                    "file": "C:\\Users\\Kush\\Documents\\dev\\android\\xportal\\android\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\64594\\Desktop\\TEC 5to semestre\\Proyecto de desarrollo de videojuegos\\xportal\\android\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
